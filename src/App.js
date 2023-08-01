@@ -12,6 +12,7 @@ const App = () => {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          <h1>HELLO</h1>
         </p>
         <div>Count = {count}</div>
         <button onClick={() => dispatch(increaseCounter())}>Increase</button>
